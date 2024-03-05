@@ -8,7 +8,9 @@ int main()
     srand(time(0));
 
     bilangan1 = rand() % 10;
+    cout << "bilangan pertama = " << bilangan1 << endl;
     bilangan2 = rand() % 10;
+    cout << "bilangan kedua = " << bilangan2 << endl;
     
 
     if (bilangan1 > bilangan2)
@@ -24,8 +26,8 @@ int main()
         status = "Bilangan pertama Lebih kecil";
     }
 
-    cout << "bilangan pertama = " << bilangan1 << endl;
-    cout << "bilangan kedua = " << bilangan2 << endl;
+   
+    
     cout << "Status Bilangan = " << status;
 }
 
